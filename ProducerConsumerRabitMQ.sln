@@ -3,9 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{170F5BDF-C1C5-48AD-8DD3-B79AAF98C427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "Producer\Producer.csproj", "{170F5BDF-C1C5-48AD-8DD3-B79AAF98C427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{C889DC86-8455-45E8-A45D-C68B6BC0880C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{C889DC86-8455-45E8-A45D-C68B6BC0880C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicrosServiceArchitecture", "MicrosServiceArchitecture", "{8CE82B19-5358-4453-84C9-F8B80AE1065D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{562FC4FA-2DFA-4EF9-8DAC-742083E95EDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{053D2946-1DBE-4277-8457-84C219A5A84B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{F8641DC7-B454-43E8-B058-7CE61E93D814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{A9272E2E-155F-4F4C-BBE8-13B083949D41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{59210BAA-DBEC-4DFB-B246-2169D589646A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +36,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{562FC4FA-2DFA-4EF9-8DAC-742083E95EDF} = {8CE82B19-5358-4453-84C9-F8B80AE1065D}
+		{053D2946-1DBE-4277-8457-84C219A5A84B} = {8CE82B19-5358-4453-84C9-F8B80AE1065D}
+		{F8641DC7-B454-43E8-B058-7CE61E93D814} = {8CE82B19-5358-4453-84C9-F8B80AE1065D}
+		{A9272E2E-155F-4F4C-BBE8-13B083949D41} = {8CE82B19-5358-4453-84C9-F8B80AE1065D}
+		{59210BAA-DBEC-4DFB-B246-2169D589646A} = {8CE82B19-5358-4453-84C9-F8B80AE1065D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49A68BAC-09E3-4C07-96A8-19D459CE88DB}
